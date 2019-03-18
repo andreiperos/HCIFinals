@@ -17,8 +17,27 @@ h2{
 	padding-top: 0px;
 }
 
+h3{
+	text-align: center;
+	font-family: "Tahoma";
+	background-color: lightgrey;
+	font-size: 18px;
+	width: 100px;
+	margin-top: 400px;
+	padding-top: 0px;
+}
+
 body{
 	margin: 0px;
+	padding: 0px;
+}
+
+a{
+	color: black;
+}
+
+li{
+	list-style: none;
 }
 
 .webTitle{
@@ -31,10 +50,6 @@ body{
 	border-radius: 80px;
 	position: fixed;
 	box-shadow: 0 20px 30px black;
-}
-
-.navbar{
-	color: black;
 }
 
 .backdrop{
@@ -58,7 +73,7 @@ body{
 .menu{
 	width: 1500px;
 	margin-top: 400px;
-	margin-left: 175px;
+	margin-left: 155px;
 	float: left;
 }
 
@@ -143,4 +158,6 @@ body{
 }
 
 /*SECOND PAGE*/
+
+
 

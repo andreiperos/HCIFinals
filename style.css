@@ -11,7 +11,8 @@ h2{
 	text-align: center;
 	font-family: "Tahoma";
 	background-color: lightgrey;
-	font-size: 25px;
+	font-size: 18px;
+	width: 100%;
 	margin-top: 400px;
 	padding-top: 0px;
 }
@@ -32,10 +33,14 @@ body{
 	box-shadow: 0 20px 30px black;
 }
 
+.navbar{
+	color: black;
+}
+
 .backdrop{
 	background: url("Newbldg.jpg")no-repeat 0 0 fixed;
 	filter: blur(10px);
-	background-position: -350px -350px;
+	background-position: -350px -360px;
   	background-repeat: no-repeat;
   	background-size: 130%;
   	margin: 0px;
@@ -136,3 +141,6 @@ body{
 	width: 405px;
 	height: 450px;
 }
+
+/*SECOND PAGE*/
+

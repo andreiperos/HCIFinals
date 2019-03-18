@@ -1,4 +1,138 @@
 h1{
-	color: grey;
+	font-family: "Arial";
+	font-size: 80px;
+	color: white;
 	text-align: center;
+	margin-top: 30px;
+	padding-top: 0px;
+}
+
+h2{
+	text-align: center;
+	font-family: "Tahoma";
+	background-color: lightgrey;
+	font-size: 25px;
+	margin-top: 400px;
+	padding-top: 0px;
+}
+
+body{
+	margin: 0px;
+}
+
+.webTitle{
+	background-color: grey;
+	height: 150px;
+	width: 1800px;
+	margin-left: 45px;
+	margin-top: 110px;
+	border: 5px solid #E875A5;
+	border-radius: 80px;
+	position: fixed;
+	box-shadow: 0 20px 30px black;
+}
+
+.backdrop{
+	background: url("Newbldg.jpg")no-repeat 0 0 fixed;
+	filter: blur(10px);
+	background-position: -350px -350px;
+  	background-repeat: no-repeat;
+  	background-size: 130%;
+  	margin: 0px;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+}
+.menu div{
+	float: left;
+	position: relative;
+	margin-left: 100px;
+	box-shadow: 0 20px 30px black;
+}
+
+.menu{
+	width: 1500px;
+	margin-top: 400px;
+	margin-left: 175px;
+	float: left;
+}
+
+.menu:hover{
+	width: 1700px;
+}
+
+.about{
+	background: url("About.jpg") no-repeat 0px 0px;
+	background-size: cover;
+	border: 5px solid #E875A5;
+	width: 250px;
+	height: 450px;
+	position: fixed;
+}
+
+.about:hover{
+	border: 5px solid lightgrey;
+	background-position: 0px -80px;
+	color: #DF1164;
+	cursor: pointer;
+	transition: .30s ease-in;
+	width: 405px;
+	height: 450px;
+}
+
+.theFounders{
+	background: url("TheFounders.jpg") no-repeat 0px 0px;
+	background-size: cover;
+	border: 5px solid #E875A5;
+	width: 250px;
+	height: 450px;
+	position: fixed;
+}
+
+.theFounders:hover{
+	border: 5px solid lightgrey;
+	background-position: 0px -150px;
+	color: #DF1164;
+	cursor: pointer;
+	transition: .30s ease-in;
+	width: 405px;
+	height: 450px;
+}
+
+.gallery{
+	background: url("Gallery.JPG") no-repeat 0px 0px;
+	background-size: cover;
+	border: 5px solid #E875A5;
+	width: 250px;
+	height: 450px;
+	position: fixed;
+}
+
+.gallery:hover{
+	border: 5px solid lightgrey;
+	background-position: 0px -100px;
+	color: #DF1164;
+	cursor: pointer;
+	transition: .30s ease-in;
+	width: 405px;
+	height: 450px;
+}
+
+.vNm{
+	background: url("VisionMission.jpg") no-repeat 0px 0px;
+	background-size: cover;
+	border: 5px solid #E875A5;
+	width: 250px;
+	height: 450px;
+	position: fixed;
+}
+
+.vNm:hover{
+	border: 5px solid lightgrey;
+	background-position: 0px -20px;
+	color: #DF1164;
+	cursor: pointer;
+	transition: .30s ease-in;
+	width: 405px;
+	height: 450px;
 }

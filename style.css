@@ -36,6 +36,7 @@ body{
 a{
 	color: black;
 	text-decoration: none;
+	box-shadow: 0 20px 50px black;
 }
 
 li{
@@ -163,6 +164,17 @@ li{
 
 /*SECOND PAGE*/
 
+h4{
+	font-size: 30px;
+	font-family: "Tahoma";
+	color: white;
+	text-align: center;
+	padding-left: 30%;
+	padding-right: 30%;
+	padding-top: 5%;
+	text-shadow: 0 7px 10px black;
+}
+
 .aboutPage{
 	background: url("AboutBG.jpg")no-repeat 0 0 fixed;
 	background-position: 0px -50px;
@@ -171,16 +183,16 @@ li{
   	margin: 0px;
 	height: 100%;
 	width: 100%;
-	position: absolute;
+	position: fixed;
 }
 
 .texts{
-	border: 2px solid black;
-	height: 200px;
-	width: 99.7%;
+	height: 700px;
+	width: 100%;
 }
 
 .homeButton{
-	margin-top: -390px;
-	margin-left: 530px;
+	margin-top: -18%;
+	margin-left: 45%;
+	position: relative;
 }

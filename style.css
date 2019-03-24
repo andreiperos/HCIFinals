@@ -160,7 +160,7 @@ li{
 	box-shadow: 0 20px 50px black;
 }
 
-/*SECOND PAGE*/
+/*Vision Mission PAGE*/
 
 h4, h5{
 	font-size: 30px;
@@ -209,5 +209,72 @@ img{
 	margin-left: 47.5%;
 	position: relative;
 	width: 10px;
-	border-radius: 20px;
 }
+
+
+/*Founders PAGE*/
+
+.founderPage div{
+	float: left;
+	width: 800px;
+	height: 600px;
+	margin-left: 80px;
+	margin-top: 3%;
+}
+
+.Librada{
+	border: 2px solid yellow;
+	width: 683px;
+	height: 700px;
+	margin-left: 5%;
+	margin-top: 8%;
+	padding: 0px;
+	position: relative;
+}
+
+.libradaPic{
+	background: url("Librada.jpg")no-repeat 0 0 fixed;
+	background-position: 100px 160px;
+	border: 2px solid black;
+	width: 250px;
+	height: 450px;
+	margin-left: 0px;
+	margin-top: 0px;
+	padding: 0px;
+
+}
+
+.Carmen{
+	border: 2px solid white;
+	width: 683px;
+	height: 700px;
+	margin-left: 52.5%;
+	margin-top: -36.5%;
+	padding: 0px;
+	position: relative;
+}
+
+.carmenPic{
+	background: url("Carmen.jpg")no-repeat 0 0 fixed;
+	background-position: 950px 160px;
+	border: 2px solid pink;
+	width: 250px;
+	height: 450px;
+	margin-left: 0px;
+	margin-top: 0px;
+	padding: 0px;
+
+}
+
+.founderInfo{
+	border: 2px solid black;
+	width: 20px;
+	height: 20px;
+	margin-left: 200px;
+	margin-top: 0px;
+	padding: 0px;
+
+}
+
+width: 683px;
+height: 979px;

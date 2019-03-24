@@ -21,7 +21,7 @@ h3{
 	text-align: center;
 	font-family: "Tahoma";
 	background-color: lightgrey;
-	font-size: 18px;
+	font-size: 20px;
 	width: 100px;
 	margin-top: 400px;
 	padding-top: 0px;
@@ -36,7 +36,6 @@ body{
 a{
 	color: black;
 	text-decoration: none;
-	box-shadow: 0 20px 50px black;
 }
 
 li{
@@ -126,7 +125,6 @@ li{
 .gallery{
 	background: url("Gallery.JPG") no-repeat 0px 0px;
 	background-size: cover;
-
 	width: 250px;
 	height: 420px;
 	position: fixed;
@@ -164,15 +162,28 @@ li{
 
 /*SECOND PAGE*/
 
-h4{
+h4, h5{
 	font-size: 30px;
-	font-family: "Tahoma";
+	font-family: "Arial";
 	color: white;
-	text-align: center;
-	padding-left: 30%;
+	text-align: left;
+	padding-left: 5%;
 	padding-right: 30%;
-	padding-top: 5%;
+	padding-top: 3%;
 	text-shadow: 0 7px 10px black;
+}
+
+h5{
+	font-size: 25px;
+	font-family: "Arial";
+	padding-top: 1%;
+
+}
+
+img{
+	margin-top: 150px;
+	margin-left: 1450px;
+	position: relative;
 }
 
 .aboutPage{
@@ -187,12 +198,16 @@ h4{
 }
 
 .texts{
+	margin-top: -450px;
 	height: 700px;
 	width: 100%;
+	position: relative;
 }
 
 .homeButton{
 	margin-top: -18%;
-	margin-left: 45%;
+	margin-left: 47.5%;
 	position: relative;
+	width: 10px;
+	border-radius: 20px;
 }

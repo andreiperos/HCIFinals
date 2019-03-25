@@ -1,0 +1,86 @@
+body{
+	margin: 0px;
+	height: 900px;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+h4{
+	font-size: 30px;
+	font-family: "Arial";
+	color: white;
+	text-align: center;
+	padding-left: 29%;
+	padding-right: 30%;
+	padding-top: 3%;
+	text-shadow: 0 7px 10px black;
+	position: relative;
+}
+
+h3{
+	text-align: center;
+	font-family: "Tahoma";
+	background-color: lightgrey;
+	font-size: 20px;
+	width: 100px;
+	margin-top: 400px;
+	padding-top: 0px;
+}
+img{
+	margin-top: 150px;
+	margin-left: 1450px;
+	position: relative;
+}
+
+.founderPage{
+	height: 900px;
+	margin: 0px;
+	background: url("Newbldg.jpg")no-repeat 0 0 fixed;
+	filter: blur(5px)  brightness(60%);
+  	background-repeat: no-repeat;
+  	background-position: 0px -50px;
+  	background-size: cover;
+  	height: 470%;
+}
+
+.libradaPic{
+	background: url("Librada.JPG") no-repeat 0px 0px;
+	background-size: cover;
+	width: 250px;
+	height: 420px;
+	position: fixed;
+	margin-left: 7%;
+	margin-top: 10%;
+	box-shadow: 0 20px 50px black;
+}
+
+.founderInfo{
+  	margin-top: -220%;
+	height: 170%;
+	position: fixed;
+	width: 800px;
+	position: absolute;
+}
+
+.carmenPic{
+	background: url(".JPG") no-repeat 0px 0px;
+	background-size: cover;
+	margin-left: -20%;
+	width: 250px;
+	height: 420px;
+	position: fixed;
+}
+
+.homeButton{
+	margin-top: 190%;
+	margin-left: 47.5%;
+	position: relative;
+	width: 10px;
+}

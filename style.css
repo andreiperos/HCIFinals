@@ -64,6 +64,7 @@ li{
 	width: 100%;
 	position: fixed;
 }
+
 .menu div{
 	float: left;
 	position: relative;
@@ -190,7 +191,7 @@ img{
 	background: url("AboutBG.jpg")no-repeat 0 0 fixed;
 	background-position: 0px -50px;
   	background-repeat: no-repeat;
-  	background-size: 130%;
+  	background-size: cover;
   	margin: 0px;
 	height: 100%;
 	width: 100%;
@@ -210,71 +211,3 @@ img{
 	position: relative;
 	width: 10px;
 }
-
-
-/*Founders PAGE*/
-
-.founderPage div{
-	float: left;
-	width: 800px;
-	height: 600px;
-	margin-left: 80px;
-	margin-top: 3%;
-}
-
-.Librada{
-	border: 2px solid yellow;
-	width: 683px;
-	height: 700px;
-	margin-left: 5%;
-	margin-top: 8%;
-	padding: 0px;
-	position: relative;
-}
-
-.libradaPic{
-	background: url("Librada.jpg")no-repeat 0 0 fixed;
-	background-position: 100px 160px;
-	border: 2px solid black;
-	width: 250px;
-	height: 450px;
-	margin-left: 0px;
-	margin-top: 0px;
-	padding: 0px;
-
-}
-
-.Carmen{
-	border: 2px solid white;
-	width: 683px;
-	height: 700px;
-	margin-left: 52.5%;
-	margin-top: -36.5%;
-	padding: 0px;
-	position: relative;
-}
-
-.carmenPic{
-	background: url("Carmen.jpg")no-repeat 0 0 fixed;
-	background-position: 950px 160px;
-	border: 2px solid pink;
-	width: 250px;
-	height: 450px;
-	margin-left: 0px;
-	margin-top: 0px;
-	padding: 0px;
-
-}
-
-.founderInfo{
-	border: 2px solid black;
-	width: 20px;
-	height: 20px;
-	margin-left: 200px;
-	margin-top: 0px;
-	padding: 0px;
-
-}
-
-width: 683px;
-height: 979px;

@@ -6,10 +6,15 @@
 	</head>	
 	<body>
 		<div class="founderPage"></div>
-		<h4 class="founderInfo">
+		<div class="founderInfo">
+			<div class="homeButton">
+				<a href="WebsiteProject.html"><h3>Home</h3></div></a>
+			</div>
+			<div class="libradaPic"></div>
+			<h4>
 			<br>LIBRADA M. AVELINO<br>               
 			(1873-1934)<br>
-			<br>
+			<br><br><br><br><br><br><br>
 			A pioneer educator of the modern Filipina and the first directress of Centro Escolar University, Librada Avelino was born in Quiapo, Manila on January 17, 1873. She was the only child of Pedro Avelino, a pharmacist, and Francisca Mangali. Not long after her birth, her family moved to Pandacan.
 			<br>
 			Her first teacher was her mother who taught her the alphabet and her prayers. At six her formal education began in the public schools where she came under the supervision of Maestra Luisa Bacho. She was, according to Bacho, the brightest Pupil in her class. Orphaned of her mother, she was fortunate to find her father's second wife, Paula Arcilla, to be loving and understanding, and a basically supportive woman. Ada studied Spanish grammar under Fermin Raymundo and took up music lessons under Ladislao Bonus. She grew to love Jose Rizal's novels and in fact considered him her favorite author.
@@ -51,11 +56,42 @@
 			Shortly before her death, she confided to one of her former students. Alicia Jose, the daughter of her bosom friend Dona Teodorica. "My dear, work and study hard and be ready to offer all you have in the service of humanity and of our poor country."
 			<br>
 			She died quietly on November 9, 1934.  After her death the Centro Escolar University established the Librada Avelino Memorial Awards for outstanding women leaders in Asia.
-		</h4>
-		<div class="libradaPic"></div>
-		<div class="carmenPic"></div>
-		<div class="homeButton">
-			<a href="WebsiteProject.html"><h3>Home</h3></a>
-			</div>
+			</h4>
+		</div>
 	</body>
+	<script language="JavaScript1.2">
+	var currentpos=0,alt=1,curpos1=0,curpos2=-1
+	function initialize(){
+		startit()
+	}
+	function scrollwindow(){
+		if (document.all)
+			temp=document.body.scrollTop
+		else
+			temp=window.pageYOffset
+		if (alt==0)
+			alt=1
+		else
+			alt=0
+		if (alt==0)
+			curpos1=temp
+		else
+			curpos2=temp
+		if (curpos1!=curpos2){
+			if (document.all)
+				currentpos=document.body.scrollTop+1
+			else
+				currentpos=window.pageYOffset+1
+				window.scroll(0,currentpos)
+			}
+			else{
+				currentpos=0
+				window.scroll(0,currentpos)
+			}
+		}
+		function startit(){
+			setInterval("scrollwindow()",100)
+		}
+		window.onload=initialize
+	</script>
 </html>
